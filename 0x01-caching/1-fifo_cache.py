@@ -6,10 +6,6 @@ from base_caching import BaseCaching
 
 class FIFOCache(BaseCaching):
     """A FIFO caching system inherited from BaseCache"""
-    def __init__(self):
-        """Initialization"""
-        # self.fifo_arr = []
-        super().__init__()
 
     def put(self, key, item):
         """ Using FIFO, assigns value to self.cache_data with key"""

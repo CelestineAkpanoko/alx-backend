@@ -7,7 +7,7 @@ from collections import OrderedDict
 
 
 class FIFOCache(BaseCaching):
-    """A FIFO caching system inherited from BaseCache"""
+    """A FIFO caching system inherited from Basecache"""
     def __init__(self):
         """Initialization"""
         super().__init__()
